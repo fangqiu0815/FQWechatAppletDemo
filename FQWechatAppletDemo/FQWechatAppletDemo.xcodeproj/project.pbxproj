@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F45CFF2213BD8700BE0AC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F45CFE2213BD8700BE0AC4 /* AppDelegate.m */; };
+		04F45D022213BD8700BE0AC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F45D012213BD8700BE0AC4 /* ViewController.m */; };
+		04F45D052213BD8700BE0AC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F45D032213BD8700BE0AC4 /* Main.storyboard */; };
+		04F45D072213BD8C00BE0AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F45D062213BD8C00BE0AC4 /* Assets.xcassets */; };
+		04F45D0A2213BD8C00BE0AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F45D082213BD8C00BE0AC4 /* LaunchScreen.storyboard */; };
+		04F45D0D2213BD8C00BE0AC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F45D0C2213BD8C00BE0AC4 /* main.m */; };
+		04F45D1F2213BF0600BE0AC4 /* HeaderShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F45D172213BF0500BE0AC4 /* HeaderShadowView.swift */; };
+		04F45D202213BF0600BE0AC4 /* StickyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F45D182213BF0500BE0AC4 /* StickyHeaderView.swift */; };
+		04F45D212213BF0600BE0AC4 /* UIEdgeInsets+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F45D1A2213BF0500BE0AC4 /* UIEdgeInsets+Equatable.swift */; };
+		04F45D222213BF0600BE0AC4 /* UIScrollView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F45D1B2213BF0500BE0AC4 /* UIScrollView+Extension.swift */; };
+		04F45D232213BF0600BE0AC4 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F45D1D2213BF0500BE0AC4 /* MenuView.swift */; };
+		04F45D242213BF0600BE0AC4 /* MenuViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F45D1E2213BF0500BE0AC4 /* MenuViewDelegate.swift */; };
+		04F45D2F2213C44A00BE0AC4 /* FQStickyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F45D2E2213C44A00BE0AC4 /* FQStickyHeaderView.m */; };
+		04F45D322213C45E00BE0AC4 /* FQHeaderShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F45D312213C45E00BE0AC4 /* FQHeaderShadowView.m */; };
+		04F45D352213C47D00BE0AC4 /* UIScrollView+FQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F45D342213C47D00BE0AC4 /* UIScrollView+FQExtension.m */; };
+		04F45D3B2213C50100BE0AC4 /* FQMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F45D3A2213C50100BE0AC4 /* FQMenuView.m */; };
+		04F45D3E2213CA4E00BE0AC4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F45D3D2213CA4E00BE0AC4 /* Person.m */; };
+		532084469BA56B58989207C6 /* libPods-FQWechatAppletDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F64CAAE7EA97CC2C4FB9F8 /* libPods-FQWechatAppletDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04F45CFA2213BD8700BE0AC4 /* FQWechatAppletDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQWechatAppletDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F45CFD2213BD8700BE0AC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04F45CFE2213BD8700BE0AC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04F45D002213BD8700BE0AC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04F45D012213BD8700BE0AC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04F45D042213BD8700BE0AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F45D062213BD8C00BE0AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F45D092213BD8C00BE0AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F45D0B2213BD8C00BE0AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F45D0C2213BD8C00BE0AC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F45D142213BF0500BE0AC4 /* Persei.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persei.h; sourceTree = "<group>"; };
+		04F45D172213BF0500BE0AC4 /* HeaderShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderShadowView.swift; sourceTree = "<group>"; };
+		04F45D182213BF0500BE0AC4 /* StickyHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickyHeaderView.swift; sourceTree = "<group>"; };
+		04F45D1A2213BF0500BE0AC4 /* UIEdgeInsets+Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Equatable.swift"; sourceTree = "<group>"; };
+		04F45D1B2213BF0500BE0AC4 /* UIScrollView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extension.swift"; sourceTree = "<group>"; };
+		04F45D1D2213BF0500BE0AC4 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		04F45D1E2213BF0500BE0AC4 /* MenuViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewDelegate.swift; sourceTree = "<group>"; };
+		04F45D292213C39B00BE0AC4 /* PerseiObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerseiObjc.h; sourceTree = "<group>"; };
+		04F45D2D2213C44A00BE0AC4 /* FQStickyHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQStickyHeaderView.h; sourceTree = "<group>"; };
+		04F45D2E2213C44A00BE0AC4 /* FQStickyHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQStickyHeaderView.m; sourceTree = "<group>"; };
+		04F45D302213C45E00BE0AC4 /* FQHeaderShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQHeaderShadowView.h; sourceTree = "<group>"; };
+		04F45D312213C45E00BE0AC4 /* FQHeaderShadowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQHeaderShadowView.m; sourceTree = "<group>"; };
+		04F45D332213C47D00BE0AC4 /* UIScrollView+FQExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+FQExtension.h"; sourceTree = "<group>"; };
+		04F45D342213C47D00BE0AC4 /* UIScrollView+FQExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+FQExtension.m"; sourceTree = "<group>"; };
+		04F45D392213C50100BE0AC4 /* FQMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQMenuView.h; sourceTree = "<group>"; };
+		04F45D3A2213C50100BE0AC4 /* FQMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQMenuView.m; sourceTree = "<group>"; };
+		04F45D3C2213CA4E00BE0AC4 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		04F45D3D2213CA4E00BE0AC4 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		47CBE95B729294D0B3F4CCD8 /* Pods-FQWechatAppletDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQWechatAppletDemo.release.xcconfig"; path = "Target Support Files/Pods-FQWechatAppletDemo/Pods-FQWechatAppletDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B5F64CAAE7EA97CC2C4FB9F8 /* libPods-FQWechatAppletDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FQWechatAppletDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07AB0AAB62EF8C7838B68F8 /* Pods-FQWechatAppletDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQWechatAppletDemo.debug.xcconfig"; path = "Target Support Files/Pods-FQWechatAppletDemo/Pods-FQWechatAppletDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F45CF72213BD8700BE0AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532084469BA56B58989207C6 /* libPods-FQWechatAppletDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F45CF12213BD8700BE0AC4 = {
+			isa = PBXGroup;
+			children = (
+				04F45CFC2213BD8700BE0AC4 /* FQWechatAppletDemo */,
+				04F45CFB2213BD8700BE0AC4 /* Products */,
+				E2965151934EB6ED6FB272B0 /* Pods */,
+				191770D74C0BAD99BE9551CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04F45CFB2213BD8700BE0AC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F45CFA2213BD8700BE0AC4 /* FQWechatAppletDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F45CFC2213BD8700BE0AC4 /* FQWechatAppletDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04F45D272213C38800BE0AC4 /* PerseiObjc */,
+				04F45D132213BF0500BE0AC4 /* Persei */,
+				04F45CFD2213BD8700BE0AC4 /* AppDelegate.h */,
+				04F45CFE2213BD8700BE0AC4 /* AppDelegate.m */,
+				04F45D002213BD8700BE0AC4 /* ViewController.h */,
+				04F45D012213BD8700BE0AC4 /* ViewController.m */,
+				04F45D032213BD8700BE0AC4 /* Main.storyboard */,
+				04F45D062213BD8C00BE0AC4 /* Assets.xcassets */,
+				04F45D082213BD8C00BE0AC4 /* LaunchScreen.storyboard */,
+				04F45D0B2213BD8C00BE0AC4 /* Info.plist */,
+				04F45D0C2213BD8C00BE0AC4 /* main.m */,
+				04F45D3C2213CA4E00BE0AC4 /* Person.h */,
+				04F45D3D2213CA4E00BE0AC4 /* Person.m */,
+			);
+			path = FQWechatAppletDemo;
+			sourceTree = "<group>";
+		};
+		04F45D132213BF0500BE0AC4 /* Persei */ = {
+			isa = PBXGroup;
+			children = (
+				04F45D142213BF0500BE0AC4 /* Persei.h */,
+				04F45D152213BF0500BE0AC4 /* Source */,
+			);
+			path = Persei;
+			sourceTree = "<group>";
+		};
+		04F45D152213BF0500BE0AC4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				04F45D162213BF0500BE0AC4 /* Core */,
+				04F45D192213BF0500BE0AC4 /* Extension */,
+				04F45D1C2213BF0500BE0AC4 /* Menu */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		04F45D162213BF0500BE0AC4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				04F45D172213BF0500BE0AC4 /* HeaderShadowView.swift */,
+				04F45D182213BF0500BE0AC4 /* StickyHeaderView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		04F45D192213BF0500BE0AC4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				04F45D1A2213BF0500BE0AC4 /* UIEdgeInsets+Equatable.swift */,
+				04F45D1B2213BF0500BE0AC4 /* UIScrollView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		04F45D1C2213BF0500BE0AC4 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				04F45D1D2213BF0500BE0AC4 /* MenuView.swift */,
+				04F45D1E2213BF0500BE0AC4 /* MenuViewDelegate.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		04F45D272213C38800BE0AC4 /* PerseiObjc */ = {
+			isa = PBXGroup;
+			children = (
+				04F45D292213C39B00BE0AC4 /* PerseiObjc.h */,
+				04F45D282213C38800BE0AC4 /* Source */,
+			);
+			path = PerseiObjc;
+			sourceTree = "<group>";
+		};
+		04F45D282213C38800BE0AC4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				04F45D2C2213C3A600BE0AC4 /* Core */,
+				04F45D2B2213C3A400BE0AC4 /* Extension */,
+				04F45D2A2213C3A200BE0AC4 /* Menu */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		04F45D2A2213C3A200BE0AC4 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				04F45D392213C50100BE0AC4 /* FQMenuView.h */,
+				04F45D3A2213C50100BE0AC4 /* FQMenuView.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		04F45D2B2213C3A400BE0AC4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				04F45D332213C47D00BE0AC4 /* UIScrollView+FQExtension.h */,
+				04F45D342213C47D00BE0AC4 /* UIScrollView+FQExtension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		04F45D2C2213C3A600BE0AC4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				04F45D2D2213C44A00BE0AC4 /* FQStickyHeaderView.h */,
+				04F45D2E2213C44A00BE0AC4 /* FQStickyHeaderView.m */,
+				04F45D302213C45E00BE0AC4 /* FQHeaderShadowView.h */,
+				04F45D312213C45E00BE0AC4 /* FQHeaderShadowView.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		191770D74C0BAD99BE9551CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5F64CAAE7EA97CC2C4FB9F8 /* libPods-FQWechatAppletDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2965151934EB6ED6FB272B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C07AB0AAB62EF8C7838B68F8 /* Pods-FQWechatAppletDemo.debug.xcconfig */,
+				47CBE95B729294D0B3F4CCD8 /* Pods-FQWechatAppletDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F45CF92213BD8700BE0AC4 /* FQWechatAppletDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F45D102213BD8C00BE0AC4 /* Build configuration list for PBXNativeTarget "FQWechatAppletDemo" */;
+			buildPhases = (
+				07790DB2E828C2A0F30C8B00 /* [CP] Check Pods Manifest.lock */,
+				04F45CF62213BD8700BE0AC4 /* Sources */,
+				04F45CF72213BD8700BE0AC4 /* Frameworks */,
+				04F45CF82213BD8700BE0AC4 /* Resources */,
+				E868069D42D54E23F5074CEF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FQWechatAppletDemo;
+			productName = FQWechatAppletDemo;
+			productReference = 04F45CFA2213BD8700BE0AC4 /* FQWechatAppletDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F45CF22213BD8700BE0AC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04F45CF92213BD8700BE0AC4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 04F45CF52213BD8700BE0AC4 /* Build configuration list for PBXProject "FQWechatAppletDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F45CF12213BD8700BE0AC4;
+			productRefGroup = 04F45CFB2213BD8700BE0AC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F45CF92213BD8700BE0AC4 /* FQWechatAppletDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F45CF82213BD8700BE0AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F45D0A2213BD8C00BE0AC4 /* LaunchScreen.storyboard in Resources */,
+				04F45D072213BD8C00BE0AC4 /* Assets.xcassets in Resources */,
+				04F45D052213BD8700BE0AC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07790DB2E828C2A0F30C8B00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FQWechatAppletDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E868069D42D54E23F5074CEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FQWechatAppletDemo/Pods-FQWechatAppletDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FQWechatAppletDemo/Pods-FQWechatAppletDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F45CF62213BD8700BE0AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F45D222213BF0600BE0AC4 /* UIScrollView+Extension.swift in Sources */,
+				04F45D322213C45E00BE0AC4 /* FQHeaderShadowView.m in Sources */,
+				04F45D3E2213CA4E00BE0AC4 /* Person.m in Sources */,
+				04F45D2F2213C44A00BE0AC4 /* FQStickyHeaderView.m in Sources */,
+				04F45D3B2213C50100BE0AC4 /* FQMenuView.m in Sources */,
+				04F45D232213BF0600BE0AC4 /* MenuView.swift in Sources */,
+				04F45D202213BF0600BE0AC4 /* StickyHeaderView.swift in Sources */,
+				04F45D022213BD8700BE0AC4 /* ViewController.m in Sources */,
+				04F45D0D2213BD8C00BE0AC4 /* main.m in Sources */,
+				04F45D212213BF0600BE0AC4 /* UIEdgeInsets+Equatable.swift in Sources */,
+				04F45D352213C47D00BE0AC4 /* UIScrollView+FQExtension.m in Sources */,
+				04F45CFF2213BD8700BE0AC4 /* AppDelegate.m in Sources */,
+				04F45D242213BF0600BE0AC4 /* MenuViewDelegate.swift in Sources */,
+				04F45D1F2213BF0600BE0AC4 /* HeaderShadowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04F45D032213BD8700BE0AC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F45D042213BD8700BE0AC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F45D082213BD8C00BE0AC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F45D092213BD8C00BE0AC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F45D0E2213BD8C00BE0AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04F45D0F2213BD8C00BE0AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F45D112213BD8C00BE0AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07AB0AAB62EF8C7838B68F8 /* Pods-FQWechatAppletDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK7D8W6QJ2;
+				INFOPLIST_FILE = FQWechatAppletDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQWechatAppletDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04F45D122213BD8C00BE0AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47CBE95B729294D0B3F4CCD8 /* Pods-FQWechatAppletDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK7D8W6QJ2;
+				INFOPLIST_FILE = FQWechatAppletDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQWechatAppletDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F45CF52213BD8700BE0AC4 /* Build configuration list for PBXProject "FQWechatAppletDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F45D0E2213BD8C00BE0AC4 /* Debug */,
+				04F45D0F2213BD8C00BE0AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F45D102213BD8C00BE0AC4 /* Build configuration list for PBXNativeTarget "FQWechatAppletDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F45D112213BD8C00BE0AC4 /* Debug */,
+				04F45D122213BD8C00BE0AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F45CF22213BD8700BE0AC4 /* Project object */;
+}
