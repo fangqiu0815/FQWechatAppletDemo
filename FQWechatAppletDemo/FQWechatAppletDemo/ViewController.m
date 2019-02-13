@@ -79,6 +79,11 @@ static NSString *identifier = @"cell";
     return cell;
 }
 
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"点击了===%zd",indexPath.row);
+}
+
 ///初始化collectionView
 - (UICollectionView *)collectionView{
     
